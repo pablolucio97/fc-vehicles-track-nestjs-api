@@ -1,1 +1,10 @@
 GET http://localhost:3000/places?text=joao monlevade, loanda
+
+###
+
+@originId = yourOriginId
+@destinationId = yourDestinationId
+
+###
+
+GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
