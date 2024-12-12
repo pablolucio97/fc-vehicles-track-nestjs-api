@@ -50,10 +50,12 @@ export class RoutesService {
   }
 
   findAll() {
-    return `This action returns all routes`;
+    return this.prismaService.route.findMany();
   }
 
   findOne(id: string) {
-    return `This action returns a #${id} route`;
+    return this.prismaService.route.findUniqueOrThrow({
+      where: { id },
+    });
   }
 }

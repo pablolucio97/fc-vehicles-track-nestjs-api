@@ -14,7 +14,6 @@ import { RoutesModule } from './routes/routes.module';
     PrismaModule,
     MapsModule,
     RoutesModule,
-    PrismaModule,
   ],
   controllers: [AppController],
   providers: [AppService],

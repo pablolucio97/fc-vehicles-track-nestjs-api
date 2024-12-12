@@ -1,13 +1,13 @@
-GET http://localhost:3000/places?text=joao monlevade, loanda
+GET http://localhost:3000/places?text=Av. Amazonas, 1000 - Centro, Belo Horizonte - MG
 
 ###
 
-@originId = yourOriginId
-@destinationId = yourDestinationId
+@originId = ChIJmx-wX0rCpgARjxH_rJ8d5do
+@destinationId = ChIJTcM3WRKWpgARIBxMZeldEtM
 
 ###
 
-GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
+GET http://localhost:3000/directions?originId={{ originId }}&destinationId={{ destinationId }}
 
 ###
 POST http://localhost:3000/routes
@@ -23,4 +23,4 @@ Content-Type: application/json
 GET http://localhost:3000/routes
 
 ###
-GET http://localhost:3000/routes/674ef78bab1148ea9161c23b
+GET http://localhost:3000/routes/675ab5edcbda018709ce4e81
